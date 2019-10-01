@@ -1,0 +1,35 @@
+.menuItem{
+    list-style-type:none;
+    color: black;
+   margin:15px;
+   font-size: 20px;
+}
+hr{
+    
+   margin: 10px;
+  border-color: #2196F7
+}
+.menuItem:hover{
+    color: #2196F7;
+}
+.navbar{
+    display: flex;
+    border-bottom: 2px solid #2196F7;
+    width: 300px
+    
+}
+.dropDown{
+    display:none;
+    justify-content: space-between;
+    position: absolute;
+    color: black;
+    list-style: none;
+    border: #2196F7 2px solid;
+    margin-top: 15px;
+    
+    
+}
+.menuItem:hover .dropDown{
+display: block;
+}
+
